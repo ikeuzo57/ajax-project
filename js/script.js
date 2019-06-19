@@ -21,7 +21,7 @@ function loadData() {
 
     // Google streetView api
     var streetViewUrl = 'http://maps.googleapis.com/maps/api/streetview?size=600x300&location=' + address + '';
-    var urlKey = 'AIzaSyA2Njk2g8jGMR01qPvegoSbkzh_brYs75I';
+    var urlKey = 'AIzaSyA2Njk2g8jGMR01qPvegoSbkzh_brYs75IKWOOAUSH';
     $body.append('<img class="bgimg" src=" ' + streetViewUrl + ' + &urlKey ">');
 
     // NYT AJAX request data
